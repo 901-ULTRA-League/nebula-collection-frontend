@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Point this to your running Nebula API
-const API_BASE = "https://nebula-collection-api.vercel.app/";
+const API_BASE = "https://nebula-collection-api.vercel.app";
 
 export async function fetchCards(filters = {}) {
   const params = new URLSearchParams(filters).toString();
